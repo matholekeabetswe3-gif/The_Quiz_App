@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    android:padding="45dp"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_quiz"
+        android:textColor="@color/purple_700"
+        android:textSize="30sp"
+        android:layout_margin="60dp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="13dp"
+        android:text="@string/master_life"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:textStyle="italic"
+        android:gravity="start"/>
+
+    <ImageView
+        android:id="@+id/mascot"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:src="@drawable/quiz_mascot_transparent"
+        android:scaleType="centerInside"
+        android:background="@android:color/transparent"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/mascot_description" />
+
+    <Button
+        android:id="@+id/btn_start_Quiz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/btn_start_quiz"
+        android:textSize="18sp"
+        android:textColor="@color/purple_500"
+        android:backgroundTint="@color/teal_200"/>
+
+</LinearLayout>

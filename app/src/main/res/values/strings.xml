@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TheQuizApp💡🧠</string>
+    <string name="splash_gif_desc">Splash GIF</string>
+    <string name="question_counter">Question 1 to 6</string>
+    <string name="question_placeholder">Question text goes here</string>
+    <string name="btn_true">TRUE / HACK</string>
+    <string name="btn_false">FALSE / MYTH</string>
+    <string name="welcome_quiz">Welome to the quiz</string>
+    <string name="master_life">Master real-world life with flashcards.Flip to test your common sense an dlearn useful, safe shortcuts for everyday life</string>
+    <string name="btn_start_quiz">Start Quiz</string>
+    <string name="mascot_description">Quiz Mascot</string>
+</resources>
